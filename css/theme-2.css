@@ -1,8 +1,8 @@
 :root {
-    --color-dark: #303136;
-    --color-light: #fdfeff;
-    --color-primary: #362d42;
-    --color-secondary: #d1aafb;
+    --color-dark: #011822;
+    --color-light: #F1F1F2;
+    --color-primary: #70b3ad;
+    --color-secondary: #5ea7ad;
 }
 
 body {
@@ -27,6 +27,20 @@ body {
     border-radius: 0.333rem;
 } 
 
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+    font-family: 'Fanwood Text', serif;
+    font-size: 1.75rem;
+}
+
+p {
+    font-family: 'Martel', serif;
+    font-size: 1.25rem;
+}
+
 @media (max-width: 768px) {
     .hero {
         grid-template-columns: 1fr;
@@ -39,7 +53,7 @@ body {
 }
 
 .navbar {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     box-shadow: 0px 8px 16px 0px var(--color-shadow);
     display: block;
     padding: 0;
@@ -118,10 +132,10 @@ q {
 /* cta knappen */
 .btn {
     border-radius: 0.333rem;
-    color: var(--color-dark)
+    color: var(--color-light)
 }
 .btn:hover {
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 /* sidfot så vi kan läsa länkarna */
