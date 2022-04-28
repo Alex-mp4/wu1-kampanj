@@ -24,7 +24,7 @@ rundade kanter
 Implementation av färgschemat, påbörjan på textinnehåll, små css ändringar
 
 ## Vecka 18
-Fixa färgen på navbar, gör textinnehållet snyggare och mer intuitivt (andra upplägg), inför bilder och karaktärsdrag
+Fixa färgen på navbar, gör textinnehållet snyggare och mer intuitivt (andra upplägg), inför bilder och karaktärsdrag, gradiens på rubrik/knapp/annat
 
 ## Vecka 19 NP
 
