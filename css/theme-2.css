@@ -9,9 +9,16 @@
 body {
     background-color: var(--color-dark);
     color: var(--color-light);
+    /*linear-gradient skapar en gradient över hela bodyn*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18),rgba(0, 0, 0, 0.185)), url(../img/clem-onojeghuo-DoA2duXyzRM-unsplash.jpg);;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position-x: 35rem;
+    background-position-y: 10rem;
 }
 
 .hero {
+    background-color: transparent;
     min-height: 60vh;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
@@ -48,6 +55,16 @@ a {
     color: var(--color-secondary);
 }
 
+.display {
+    display: grid;
+    place-content: center;
+}
+
+.display img {
+    width: 100%;
+    height: 100%;
+}
+
 @media (max-width: 768px) {
     .hero {
         grid-template-columns: 1fr;
@@ -56,6 +73,14 @@ a {
     }
     .hero-image {
         grid-row: 1;
+    }
+    .display {
+        display: none;
+    }
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/clem-onojeghuo-DoA2duXyzRM-unsplash.jpg);
+        background-position-x: center;
+        background-position-y: top;
     }
 }
 
@@ -68,6 +93,7 @@ a {
     position: sticky;
     top: 0;
     text-transform: uppercase;
+    font-family: 'Fanwood Text', serif;
 }
 
 /* Eftersom navbaren nu innehåller en container så behöver vi flytta
@@ -150,6 +176,7 @@ q {
     background: rgb(112,179,173);
     background: linear-gradient(90deg, rgba(112,179,173,1) 0%, rgba(76,155,173,1) 35%, rgba(58,143,173,1) 100%);
     font-family: 'Fanwood Text', serif;
+    font-size: 37px;
 }
 .btn:hover {
     color: var(--color-dark);

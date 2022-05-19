@@ -30,8 +30,7 @@ Fixa färgen på navbar, gör textinnehållet snyggare och mer intuitivt (andra 
 
 
 ## Vecka 20
-Placera bilden bakom hero-texten, wave, validering, text-innehållet behöver mer kraft (med bilder, iconer, former)
-
+Placera bilden bakom hero-texten, wave, validering, text-innehållet behöver mer kraft (med bilder, iconer, former, förfinad text
 
 ## Vecka 21 Kristi himmels
 
@@ -40,8 +39,6 @@ Placera bilden bakom hero-texten, wave, validering, text-innehållet behöver me
 
 ## Vecka 22 
 
+Kanske fixa linear-gradient över hela bodyn
+Göra bilderna mindre (i fil-storlek)
 Inlämning och PM
-
-
-
-
